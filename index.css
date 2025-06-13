@@ -3,13 +3,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: rgb(255, 254, 170);
+    background-color: rgb(224, 197, 147);
     font-family: sans-serif;
 }
 
 .calculator {
     background: rgb(255, 255, 255);
-
+    width: 33vh;
     padding: 20px;
     margin-top: 110px;
     border-radius: 15px;
@@ -22,15 +22,19 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     text-align: right;
+    border: solid 3px rgba(0, 0, 0, 0.37);
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 60px);
     gap: 10px;
+    
+
 }
 
 .container button {
+    
     font-size: 1.5em;
     padding: 10px;
     cursor: pointer;
@@ -61,4 +65,11 @@ body {
     letter-spacing: 1px;
     pointer-events: none;
     transform: rotate(-65deg);
+}
+p{
+    position: absolute;
+    bottom: 150px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 }
