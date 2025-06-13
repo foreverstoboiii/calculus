@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(255, 254, 170);
+    font-family: sans-serif;
+}
+
+.calculator {
+    background: rgb(255, 255, 255);
+
+    padding: 20px;
+    margin-top: 110px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 80%;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+.container button {
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    transition: background 0.2s;
+}
+
+.container button:hover {
+    background-color: #bbb;
+}
+
+.container button:active {
+    background-color: #999;
+
+}
+
+.calculator::after {
+    content: 'forever_stoboiii';
+    position: absolute;
+    right: 33vw;
+    top: 18vw;
+    font-size: 45px;
+    color: black;
+    font-family: "Lavishly Yours", cursive;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transform: rotate(-65deg);
+}
