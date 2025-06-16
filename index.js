@@ -14,3 +14,18 @@ function clearDisplay() {
     document.getElementById('display').value = '';
 }
 //функция для очистки дисплея 
+
+const togglebutton = document.getElementById('themetoggle');
+
+togglebutton.addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode');
+
+    if (document.body.classList.contains('dark-mode')) {
+        togglebutton.textContent = '🌙'; // Тёмная тема активна
+    } else {
+        togglebutton.textContent = '🔆'; // Светлая тема активна
+    }
+});
+
+//функция для переключение тем 
+
