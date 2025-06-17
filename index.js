@@ -18,6 +18,9 @@ function clearDisplay() {
 const togglebutton = document.getElementById('themetoggle');
 const savedTheme = localStorage.getItem('theme');
 
+
+// Получаем кнопку переключения темы и сохранённую тему из localStorage
+
 // При загрузке страницы устанавливаем тему из localStorage
 if (savedTheme === 'dark') {
     document.body.classList.add('dark-mode');
