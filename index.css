@@ -169,25 +169,7 @@ body.dark-mode .container button {
 
 
 @media (max-width: 480px) {
-  .calculator {
-    padding: 10px;
-  }
-
-  .container button {
-    font-size: 1.1em;
-    padding: 6px;
-  }
-
-  #display {
-    font-size: 1.5em;
-    padding: 6px;
-  }
-
-  #themetoggle {
-    font-size: 14px;
-    padding: 6px 10px;
-  }
-
+  
   p {
     font-size: 24px;
   }
