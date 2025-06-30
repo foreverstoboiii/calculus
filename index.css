@@ -168,13 +168,20 @@ body.dark-mode .container button {
 
 
 
-@media (max-width: 480px) {
-  
+@media (max-width: 600px) {
   p {
-    font-size: 24px;
-  }
-
-  .waterm {
     font-size: 28px;
+    bottom: 80px;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: 22px;
+    bottom: 70px;
+    text-align: center;
+    padding: 0 12px;
   }
 }
