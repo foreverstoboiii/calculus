@@ -163,3 +163,36 @@ body.dark-mode .fancytext {
 body.dark-mode .container button {
     background-color: #f0efef;
 }
+
+/* ====== Адаптив ====== */
+
+
+
+@media (max-width: 480px) {
+  .calculator {
+    padding: 10px;
+  }
+
+  .container button {
+    font-size: 1.1em;
+    padding: 6px;
+  }
+
+  #display {
+    font-size: 1.5em;
+    padding: 6px;
+  }
+
+  #themetoggle {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .waterm {
+    font-size: 28px;
+  }
+}
